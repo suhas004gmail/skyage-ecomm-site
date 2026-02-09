@@ -143,6 +143,7 @@ const translations = {
     consultantText: 'हमें अपनी आवश्यकताओं के बारे में बताएं और हम आगे संपर्क करेंगे।',
     tellUsRequirement: 'अपनी आवश्यकता बताएं',
     name: 'नाम',
+    mobileNumber: 'मोबाइल नंबर',
     email: 'ईमेल',
     message: 'संदेश',
     sendRequest: 'अनुरोध भेजें',
