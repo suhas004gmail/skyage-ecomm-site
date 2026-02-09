@@ -57,7 +57,7 @@ export default function HotSalesClothing(){
             <article key={p.id} className="bg-white rounded shadow p-3 flex flex-col h-full">
               <img src={p.image} alt={p.title} className="h-24 object-contain mb-2" />
               <h3 className="text-sm font-medium line-clamp-2">{p.title}</h3>
-              <p className="mt-auto text-[#147E9E] font-semibold">${p.price}</p>
+              <p className="mt-auto text-[#147E9E] font-semibold">₹{p.price}</p>
               <Link to={`/product/${p.id}`} className="inline-block mt-2 text-sm text-[#147E9E]">{t('view')}</Link>
             </article>
           ))}
@@ -66,3 +66,4 @@ export default function HotSalesClothing(){
     </section>
   )
 }
+
